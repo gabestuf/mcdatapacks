@@ -1,2 +1,3 @@
-# mcdatapacks
-description
+# Datapacks for Minecraft
+
+Yes. What the title says.
