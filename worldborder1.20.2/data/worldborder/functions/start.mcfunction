@@ -1,8 +1,8 @@
 scoreboard objectives add worldboarder.totallevels dummy
 scoreboard objectives add levels level
 
-#debug
-scoreboard objectives setdisplay sidebar worldboarder.totallevels
+# debug
+# scoreboard objectives setdisplay sidebar worldboarder.totallevels
 
 # init
 setworldspawn 0 0 0
