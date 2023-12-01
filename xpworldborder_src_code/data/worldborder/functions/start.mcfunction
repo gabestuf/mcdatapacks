@@ -10,6 +10,9 @@ gamerule spawnRadius 0
 worldborder set 1
 worldborder center 0 0
 
+effect give @a minecraft:absorption 3 50 true
+tp @a 0 100 0
+
 scoreboard players add totalxp worldboarder.totallevels 0
 scoreboard players add bordersize worldboarder.totallevels 0
 scoreboard players set incrementor worldboarder.totallevels 1
