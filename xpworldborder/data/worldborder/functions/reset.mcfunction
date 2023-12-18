@@ -4,11 +4,8 @@ scoreboard objectives remove levels
 #debug
 # scoreboard objectives setdisplay sidebar
 
-# init
-setworldspawn 0 0 0
-gamerule spawnRadius 0
-worldborder set 10000000
-worldborder center 0 0
+# remove world border
+worldborder set 30000000
 
 scoreboard players reset totalxp worldboarder.totallevels
 scoreboard players reset bordersize worldboarder.totallevels
