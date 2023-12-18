@@ -15,7 +15,7 @@ tp @a 0 100 0
 
 scoreboard players add totalxp worldboarder.totallevels 0
 scoreboard players add bordersize worldboarder.totallevels 0
-scoreboard players set incrementor worldboarder.totallevels 1
+scoreboard players set incrementor worldboarder.totallevels 2
 
 scoreboard players operation totalxp worldboarder.totallevels = @a levels
 
