@@ -4,9 +4,6 @@ scoreboard objectives add levels level
 # debug
 # scoreboard objectives setdisplay sidebar worldborder.totallevels
 
-# Trigger commands
-scoreboard objectives add xpborder.start trigger
-scoreboard objectives add xpborder.reset trigger
 
 
 # init
@@ -20,11 +17,10 @@ tp @a 0 100 0
 
 scoreboard players add totalxp worldborder.totallevels 0
 scoreboard players add bordersize worldborder.totallevels 0
-scoreboard players set incrementor worldborder.totallevels 2
 
 scoreboard players operation totalxp worldborder.totallevels = @a levels
 
-schedule function worldborder:wbtick 1.1s
+schedule function worldborder:wbtick 1s
 
 tellraw @a {"text": "worldborder loaded","color": "dark_green", "bold": true}
 tellraw @a {"text": "created by gabestuf", "color":"light_purple"}
