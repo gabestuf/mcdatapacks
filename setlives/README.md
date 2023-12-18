@@ -13,6 +13,6 @@ https://www.planetminecraft.com/data-pack/10th-life/
 
 ### Description
 
-Like Limited Life but you have 10 lives. You can craft more lives with 9 emerald ore like the datapack this was inspired from.
+Like Limited Life but you have 10 lives. You can craft more lives with 9 emerald ore.
 
 ### Version: 1.20.4

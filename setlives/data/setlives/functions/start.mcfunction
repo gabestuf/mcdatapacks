@@ -4,8 +4,8 @@ scoreboard objectives add setlives.deaths deathCount
 # init
 
 # debug displays
-# scoreboard objectives setdisplay sidebar setlives.deaths
-# scoreboard objectives setdisplay list setlives.lives
+scoreboard objectives setdisplay sidebar setlives.deaths
+scoreboard objectives setdisplay list setlives.lives
 
 # Team Colors
 team add setlives.team.darkgreen
