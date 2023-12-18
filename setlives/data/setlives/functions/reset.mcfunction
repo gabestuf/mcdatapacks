@@ -9,8 +9,8 @@ team remove setlives.team.red
 team remove setlives.team.darkred
 
 # debug
-scoreboard objectives setdisplay list 
-scoreboard objectives setdisplay sidebar 
+# scoreboard objectives setdisplay list 
+# scoreboard objectives setdisplay sidebar 
 
 
 
